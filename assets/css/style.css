@@ -13,8 +13,6 @@
 body {
    background-image: url("../images/norwegian_rose_@2X.png");
    overflow:auto;
-   border: 2px solid #cccccc;
-
     
 }
 
@@ -49,6 +47,8 @@ hr {
 
 a {
  color: #777777;
+ margin-left: 3px;
+ margin-right: 3px;
 
 }
 
@@ -69,11 +69,12 @@ a:active {
 }
 
 #container {
-    padding: 34px;
     background: #ffffff;
     width: 960px;
     margin: auto;
-    margin-top: 40px
+    margin-top: 30px;
+    height: auto;
+    display: block;
 
 }
 img {       /* for About page image*/
@@ -121,13 +122,13 @@ footer{
     border-top: 8px solid #4aaaa5
 }
 
-#contact{
+/*#contact{
 padding: 34px;
 background:#ffffff;
 width: 960px;
 margin: auto;
 margin-top: 40px;
-}
+}*/
 
 .form {
     padding: 32px;
@@ -164,110 +165,63 @@ input[type=text] {
     height: 85px;
  }
 
- .hangman{
+ #hangman{
      background-image: url("../images/Hangman.jpg");
      width: 210px;
-     height: 205px;
+     height: 135px;
      margin-left: 20px;
      margin-right:20px;
 
  }
 
- .rpgGame{
+ #rpgGame{
      background-image: url("../images/RPG Game.jpg");
      width: 210px;
-     height: 205px;
-     margin-left: 20px;
-     position: relative;
-     top: -204px;
-     right:-250px;
-
- }
- .triviaGame{
-     background-image: url("../images/Trivia Game.jpg");
-     width: 210px;
-     height: 205px;
-     margin-left: 20px;
-     position: relative;
-     top:-160px;
-
- }
- .rutgers{
-     background-image: url("../images/Rutgers Info widget.jpg");
-     width: 210px;
-     height: 205px;
-     margin-left: 20px;
-     position: relative;
-     top:-364px;
-     right:-250px;
-
- }
- .rock{
-     background-image: url("../images/Rock paper scissors.jpg");
-     width: 210px;
-     height: 205px;
+     height: 135px;
      margin-left: 20px;
      margin-right:20px;
-     position: relative;
-     top: -320px;
- }
 
- #fig-hangman {
-     background: #4aaaa5;
-     text-align: center;
-     color: white;
-     font-size: 15px;
-     padding: 20px;
-     position: relative;
-     top:140px;
 
 
  }
-
- #fig-rpgGame{
-     background: #4aaaa5;
-     text-align: center;
-     color: white;
-     font-size: 15px;
-     padding: 20px;
-     position: relative;
-     top:140px;
- }
- 
- #fig-triviaGame{
-     background: #4aaaa5;
-     text-align: center;
-     color: white;
-     font-size: 15px;
-     padding: 20px;
-     position: relative;
-     top:140px;
- }
-
- #fig-rutgers{
-     background: #4aaaa5;
-     text-align: center;
-     color: white;
-     font-size: 15px;
-     padding: 20px;
-     position: relative;
-     top:140px;
+ #triviaGame{
+     background-image: url("../images/Trivia Game.jpg");
+     width: 210px;
+     height: 135px;
+     margin-left: 20px;
+     margin-right:20px;
 
  }
-
- #fig-rock{
-     background: #4aaaa5;
-     text-align: center;
-     color: white;
-     font-size: 15px;
-     padding: 20px;
-     position: relative;
-     top:140px;
+ #rutgers{
+     background-image: url("../images/Rutgers Info widget.jpg");
+     width: 210px;
+     height: 135px;
+     margin-left: 20px;
+     margin-right:20px;
 
  }
+ #rock{
+     background-image: url("../images/Rock paper scissors.jpg");
+     width: 210px;
+     height: 135px;
+     margin-left: 20px;
+     margin-right:20px;
+ }
 
- .content{
-     background: #ffffff;
+.fig-label{
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+    position: relative;
+    top: 88px;
+    width: 186px;
+    margin-left: auto;
+}
 
 
+ #tablecontent{
+     padding-bottom: 5px;
+     padding-left: 5px;
  }
